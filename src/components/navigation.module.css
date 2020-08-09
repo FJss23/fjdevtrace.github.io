@@ -1,0 +1,23 @@
+.global {
+  margin-bottom: 5rem;
+}
+
+.link {
+  list-style: none;
+}
+
+.link a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover,
+.active {
+  color: #e63946;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}

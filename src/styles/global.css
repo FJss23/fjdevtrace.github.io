@@ -1,3 +1,21 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 html {
-  background: lavenderblush;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+}
+
+* {
+  background: black;
+  color: #f1faee;
+}
+
+body {
+  margin: 3rem auto;
+  max-width: 50%;
 }
