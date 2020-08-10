@@ -1,18 +1,14 @@
 import React from "react";
 import Layout from "../components/layout";
 import aboutStyle from "./about.module.css";
+import { Link } from "gatsby";
 
 export default function About() {
   return (
     <Layout>
       <div className={aboutStyle.row}>
         <div className={aboutStyle.column}>
-          <img
-            src="avatar2.svg"
-            alt="Personal logo"
-            width="100%"
-            height="auto"
-          />
+          <img src="avatar.png" alt="Personal logo" />
         </div>
         <div className={aboutStyle.column}>
           <p>
@@ -28,14 +24,16 @@ export default function About() {
           </p>
           <ul>
             <li>Java</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>C#</li>
             <li>C++</li>
-            <li>TypeScript</li>
-            <li>JavaScript</li>
+            <li>Python</li>
           </ul>
           <p>
-            For information about my professional experience, please visit my
-            LinkedIn profile or Contact Me requesting my CV.
+            For information about my professional experience, please visit my{" "}
+            <a href="#">LinkedIn</a> profile or{" "}
+            <Link to="/contact">Contact Me</Link> requesting my CV.
           </p>
         </div>
       </div>

@@ -5,4 +5,10 @@
 .column {
   width: 50%;
   padding: 0.3rem;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
