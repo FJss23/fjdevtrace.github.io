@@ -1,0 +1,19 @@
+.element {
+  font-size: 1rem;
+  list-style: none;
+}
+.element a {
+  text-decoration: underline #00ffff;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.types {
+  font-size: 2rem;
+}
