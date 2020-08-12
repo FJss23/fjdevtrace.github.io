@@ -1,31 +1,34 @@
 import React from "react";
 import Navigation from "../components/navigation";
 import indexStyle from "./index.module.css";
-import navigationStyle from "../components/navigation.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <h4 className={indexStyle.subtitle}>Hi, I am Francisco</h4>
-      <h1 className={indexStyle.title}>Software Engineer</h1>
-      <h4 className={indexStyle.types}>Mobile | Web | Desktop</h4>
-      <div>
-        <a href="#">
-          <img src="" alt="Itch logo" />
+    <>
+      <div className={indexStyle.header}>
+        <div className={indexStyle.titles}>
+          <h4 className={indexStyle.subtitle}>Hi, I am Francisco</h4>
+          <h1 className={indexStyle.title}>Software Engineer</h1>
+        </div>
+        <h4 className={indexStyle.platform}>Mobile | Web | Desktop</h4>
+      </div>
+      <div className={indexStyle.logos}>
+        <a href="#" className={indexStyle.itch}>
+          <img src="itch.png" alt="Itch logo" />
         </a>
-        <a href="#">
-          <img src="" alt="LinkedIn logo" />
+        <a href="#" className={indexStyle.linkedin}>
+          <img src="linkedin.png" alt="LinkedIn logo" />
         </a>
-        <a href="#">
-          <img src="" alt="GitHub logo" />
+        <a href="#" className={indexStyle.github}>
+          <img src="github.png" alt="GitHub logo" />
         </a>
       </div>
       <Navigation
-        global={""}
-        nav={navigationStyle.nav}
-        link={indexStyle.element}
+        global={indexStyle.global}
+        nav={indexStyle.nav}
+        link={indexStyle.link}
         active={""}
       />
-    </div>
+    </>
   );
 }
