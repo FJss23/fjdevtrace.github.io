@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "./navigation";
-import Container from "./container";
 import navigationStyle from "./navigation.module.css";
 
 export default function Layout({ children }) {
@@ -12,7 +11,7 @@ export default function Layout({ children }) {
         link={navigationStyle.link}
         active={navigationStyle.active}
       />
-      <Container>{children}</Container>
+      <div>{children}</div>
     </>
   );
 }
