@@ -1,3 +1,11 @@
+.frontpage {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -22,6 +30,7 @@
 }
 
 .platform {
+  margin-top: 0;
   font-size: 1.4rem;
   align-self: center;
 }
@@ -50,6 +59,12 @@
 
 .logos {
   display: flex;
-  width: 60%;
-  padding-bottom: 9rem;
+  /*padding-bottom: 9rem;*/
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.logo {
+  padding: 0.3rem;
+  width: 12%;
 }

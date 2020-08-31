@@ -1,9 +1,17 @@
-import React from "react";
+import React from 'react';
+import Project from './project';
 
 export default function Projects() {
   return (
-    <div>
-      <h1>Projects page</h1>
-    </div>
+    <>
+      <h1>PROJECTS</h1>
+      <div>
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+      </div>
+    </>
   );
 }
