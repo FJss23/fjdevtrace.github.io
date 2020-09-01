@@ -7,16 +7,16 @@ export default function Navigation() {
     <>
       <nav className={navStyle.global}>
         <ul className={navStyle.nav}>
-          <li className={navStyle.link}>
+          <li className={`${navStyle.link} ${navStyle.effect}`}>
             <Link to="/about">About</Link>
           </li>
-          <li className={navStyle.link}>
+          <li className={`${navStyle.link} ${navStyle.effect}`}>
             <Link to="/projects">Projects</Link>
           </li>
-          <li className={navStyle.link}>
+          <li className={`${navStyle.link} ${navStyle.effect}`}>
             <Link to="/contact">Contact</Link>
           </li>
-          <li className={navStyle.link}>
+          <li className={`${navStyle.link} ${navStyle.effect}`}>
             <Link to="/blog">Blog</Link>
           </li>
         </ul>

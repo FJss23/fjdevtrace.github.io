@@ -44,4 +44,9 @@
 .logo {
   padding: 0.3rem;
   width: 12%;
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
