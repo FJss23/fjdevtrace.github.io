@@ -1,31 +1,26 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
+import navStyle from './navigation.module.css';
 
-export default function Navigation({ global, nav, link, active }) {
+export default function Navigation() {
   return (
-    <nav className={global}>
-      <ul className={nav}>
-        <li className={link}>
-          <Link to="/about" activeClassName={active}>
-            About
-          </Link>
-        </li>
-        <li className={link}>
-          <Link to="/projects" activeClassName={active}>
-            Projects
-          </Link>
-        </li>
-        <li className={link}>
-          <Link to="/contact" activeClassName={active}>
-            Contact
-          </Link>
-        </li>
-        <li className={link}>
-          <Link to="/blog" activeClassName={active}>
-            Blog
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <nav className={navStyle.global}>
+        <ul className={navStyle.nav}>
+          <li className={navStyle.link}>
+            <Link to="/about">About</Link>
+          </li>
+          <li className={navStyle.link}>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className={navStyle.link}>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li className={navStyle.link}>
+            <Link to="/blog">Blog</Link>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 }

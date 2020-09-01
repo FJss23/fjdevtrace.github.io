@@ -32,12 +32,7 @@ export default function Home() {
             <img src="github.png" alt="GitHub logo" />
           </a>
         </div>
-        <Navigation
-          global={startStyle.global}
-          nav={startStyle.nav}
-          link={startStyle.link}
-          active={''}
-        />
+        <Navigation />
       </div>
     </div>
   );

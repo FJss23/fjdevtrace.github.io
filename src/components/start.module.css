@@ -35,31 +35,8 @@
   align-self: center;
 }
 
-.link {
-  list-style-type: none;
-}
-
-.link a {
-  font-size: 1.4rem;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.nav {
-  width: 50%;
-  display: flex;
-  padding: 0;
-  justify-content: space-evenly;
-}
-
-.global {
-  display: flex;
-  justify-content: center;
-}
-
 .logos {
   display: flex;
-  /*padding-bottom: 9rem;*/
   margin-top: 1rem;
   justify-content: center;
 }
