@@ -1,5 +1,5 @@
 .global {
-  margin-top: 4rem;
+  margin-top: 7rem;
   display: flex;
   justify-content: center;
 }
@@ -20,7 +20,7 @@
 }
 
 .link a {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
   background-size: 0;

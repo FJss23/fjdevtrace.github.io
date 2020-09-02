@@ -8,7 +8,11 @@ export default function About() {
       <h1>ABOUT</h1>
       <div className={aboutStyle.row}>
         <div className={aboutStyle.column}>
-          <img src="avatar.png" alt="Personal logo" />
+          <object
+            type="image/svg+xml"
+            data="avatar.svg"
+            className="logo"
+          ></object>
         </div>
         <div className={aboutStyle.column}>
           <p>
@@ -24,7 +28,6 @@ export default function About() {
           </p>
           <ul>
             <li>Java</li>
-            <li>C++</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>Python</li>
