@@ -1,23 +1,27 @@
 import React from 'react';
+import projectStyle from './project.module.css';
 
 export default function Project(props) {
   return (
-    <div>
+    <div className={`${projectStyle.card} ${projectStyle.container}`}>
       <div>
         <div>
-          <h2>{props.name}</h2>
-          <p>{props.icon}</p>
+          <span className={projectStyle.title}>
+            {props.name} {props.icon}
+          </span>
         </div>
         <div>
-          <p>Description:</p>
-          <p>{props.description}</p>
+          <span className={projectStyle.subtitle}>Description:</span>
+          <div>{props.description}</div>
         </div>
         <div>
-          <p>Source Code:</p>
+          <span className={projectStyle.subtitle}>
+            Source Code: <a href={`${props.source}`}>GitHub Repository</a>
+          </span>
         </div>
       </div>
-      <div>
-        <p>Technologies:</p>
+      <div className={projectStyle.tech}>
+        <span className={projectStyle.subtitle}>Technologies:</span>
         <img alt="img1" />
         <img alt="img2" />
         <img alt="img3" />

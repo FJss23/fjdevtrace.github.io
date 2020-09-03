@@ -12,14 +12,24 @@ html {
     Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 1.1rem;
+  background: #14213d;
+  color: #f1faee;
 }
 
-* {
-  background: #14213d;
+a {
   color: #f1faee;
 }
 
 body {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 45%;
+}
+
+.sectionTitle {
+  padding-bottom: 1rem;
+  color: #e63946;
+  background-image: linear-gradient(#457b9d, #457b9d);
+  background-position: center center;
+  background-size: 100% 0.6rem;
+  background-repeat: no-repeat;
 }

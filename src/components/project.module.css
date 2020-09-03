@@ -1,0 +1,25 @@
+.card {
+  background-color: #f1faee;
+  color: #1d3557;
+  border-radius: 10px;
+  height: 100%;
+  padding: 1rem;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.tech {
+  flex-basis: 100%;
+}
+
+.title,
+.subtitle {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.3rem;
+}

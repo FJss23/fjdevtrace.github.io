@@ -5,9 +5,9 @@ import { Link } from 'gatsby';
 export default function About() {
   return (
     <>
-      <h1>ABOUT</h1>
+      <h1 className="sectionTitle">ABOUT</h1>
       <div className={aboutStyle.row}>
-        <div className={aboutStyle.column}>
+        <div className={`${aboutStyle.column} ${aboutStyle.cat}`}>
           <object
             type="image/svg+xml"
             data="avatar.svg"
@@ -19,8 +19,10 @@ export default function About() {
             My name is Francisco and I am a Software Engineer based in Spain.{' '}
           </p>
           <p>
-            I have a strong passion for open source, game development and
-            design, which influences my professional work.{' '}
+            I have a strong passion for a variety of topics like web
+            development, IoT, embedded systems and game development. I like
+            spent some time learning new technologies, practising sport and
+            reading fantasy books.
           </p>
           <p>
             When it comes to programming language, I've managed to pick up the
