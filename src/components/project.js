@@ -16,7 +16,10 @@ export default function Project(props) {
         </div>
         <div>
           <span className={projectStyle.subtitle}>
-            Source Code: <a href={`${props.source}`}>GitHub Repository</a>
+            Source Code:{' '}
+            <a href={`${props.source}`} target="_blank">
+              GitHub Repository
+            </a>
           </span>
         </div>
       </div>

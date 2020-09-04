@@ -11,8 +11,23 @@ export default function Projects() {
           icon="🚀"
           description="Lorem ipsum dolor sit amet consectetur adipisicing 
           elit. Accusamus ipsa, nihil corporis ratione libero voluptate 
-          fugiat minus, dolore at blanditiis autem eaque! Sunt, suscipit 
-          quam neque reprehenderit hic at libero!"
+          fugiat minus, dolore at blanditiis"
+          source="https://github.com/FJss23/CirsimWeb"
+        />
+        <Project
+          name="Circuit Simulator"
+          icon="🚀"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing 
+          elit. Accusamus ipsa, nihil corporis ratione libero voluptate 
+          fugiat minus, dolore at blanditiis"
+          source="https://github.com/FJss23/CirsimWeb"
+        />
+        <Project
+          name="Circuit Simulator"
+          icon="🚀"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing 
+          elit. Accusamus ipsa, nihil corporis ratione libero voluptate 
+          fugiat minus, dolore at blanditiis"
           source="https://github.com/FJss23/CirsimWeb"
         />
       </div>

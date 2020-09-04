@@ -1,6 +1,6 @@
-import React from 'react';
-import aboutStyle from './about.module.css';
-import { Link } from 'gatsby';
+import React from "react";
+import aboutStyle from "./about.module.css";
+import { Link } from "gatsby";
 
 export default function About() {
   return (
@@ -15,9 +15,9 @@ export default function About() {
           ></object>
         </div>
         <div className={aboutStyle.column}>
-          <p>
-            My name is Francisco and I am a Software Engineer based in Spain.{' '}
-          </p>
+          <span>
+            My name is Francisco and I am a Software Engineer based in Spain.{" "}
+          </span>
           <p>
             I have a strong passion for a variety of topics like web
             development, IoT, embedded systems and game development. I like
@@ -34,11 +34,11 @@ export default function About() {
             <li>TypeScript</li>
             <li>Python</li>
           </ul>
-          <p>
-            For information about my professional experience, please visit my{' '}
-            <a href="#">LinkedIn</a> profile or{' '}
+          <span>
+            For information about my professional experience, please visit my{" "}
+            <a href="#">LinkedIn</a> profile or{" "}
             <Link to="/contact">Contact Me</Link> requesting my CV.
-          </p>
+          </span>
         </div>
       </div>
     </>
