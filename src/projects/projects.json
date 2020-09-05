@@ -1,0 +1,52 @@
+[
+  {
+    "id": 7,
+    "name": "Personal Website",
+    "icon": "🚀",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
+    "source": "https://github.com/FJss23/MyWebsite"
+  },
+  {
+    "id": 6,
+    "name": "Circuit Simulator",
+    "icon": "🔌",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
+    "source": "https://github.com/FJss23/CirsimWeb"
+  },
+
+  {
+    "id": 5,
+    "name": "Tower Defense",
+    "icon": "🎮",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
+    "source": "https://github.com/FJss23/VG-Project-Tower"
+  },
+  {
+    "id": 4,
+    "name": "Humidity Detector",
+    "icon": "🐳",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
+    "source": "https://github.com/FJss23/Internet-Of-Things7.1"
+  },
+  {
+    "id": 3,
+    "name": "Open/Close Sensor",
+    "icon": "🚪",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
+    "source": "https://github.com/FJss23/Smart-Object"
+  },
+  {
+    "id": 2,
+    "name": "Distance Detector",
+    "icon": "📈",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
+    "source": "https://github.com/FJss23/Internet-Of-Things7.2"
+  },
+  {
+    "id": 1,
+    "name": "Incident Manager",
+    "icon": "🔥",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
+    "source": "https://github.com/FJss23/Inci-e3a"
+  }
+]
