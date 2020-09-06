@@ -1,24 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import Project from './project';
-import data from '../projects/projects.json';
+import React, { useState, useEffect } from "react";
+import Project from "./project";
+import Pagination from "./pagination";
+import data from "../projects/projects.json";
 
 export default function Projects() {
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [projects] = useState(data);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(4);
+  const [projectsPerPage] = useState(4);
 
-  useEffect(() => {
-    const readPosts = async () => {
-      setLoading(true);
-    };
-  });
+  const indexLastProject = currentPage * projectsPerPage;
+  const indexFirstProject = indexLastProject - projectsPerPage;
+  const currentProjects = projects.slice(indexFirstProject, indexLastProject);
 
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
   return (
     <>
       <h1 className="sectionTitle">PROJECTS</h1>
       <div>
-        {data.map((project) => {
+        {currentProjects.map((project) => {
           return (
             <Project
               key={project.id}
@@ -29,6 +28,11 @@ export default function Projects() {
             />
           );
         })}
+        <Pagination
+          projectsPerPage={projectsPerPage}
+          totalProjects={projects.length}
+          paginate={paginate}
+        />
       </div>
     </>
   );
