@@ -8,8 +8,8 @@ html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
-    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   font-size: 1.1rem;
   background: #14213d;
@@ -33,4 +33,8 @@ body {
   background-position: center center;
   background-size: 100% 0.6rem;
   background-repeat: no-repeat;
+}
+
+a:hover {
+  color: #e63946;
 }

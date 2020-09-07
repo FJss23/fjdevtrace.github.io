@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Project from "./project";
 import Pagination from "./pagination";
 import data from "../projects/projects.json";
+import projectStyle from "./project.module.css";
 
 export default function Projects() {
   const [projects] = useState(data);
@@ -16,7 +17,7 @@ export default function Projects() {
   return (
     <>
       <h1 className="sectionTitle">PROJECTS</h1>
-      <div>
+      <div className={projectStyle.projects}>
         {currentProjects.map((project) => {
           return (
             <Project
