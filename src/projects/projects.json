@@ -4,14 +4,27 @@
     "name": "Personal Website",
     "icon": "🚀",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
-    "source": "https://github.com/FJss23/MyWebsite"
+    "source": "https://github.com/FJss23/MyWebsite",
+    "technologies": ["Javascript", "Gatsby", "CSS Modules"],
+    "type": "Web"
   },
   {
     "id": 6,
     "name": "Circuit Simulator",
     "icon": "🔌",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
-    "source": "https://github.com/FJss23/CirsimWeb"
+    "source": "https://github.com/FJss23/CirsimWeb",
+    "technologies": [
+      "Typescript",
+      "Java",
+      "Angular",
+      "SpringBoot",
+      "Angular Material",
+      "VisJs",
+      "JWT",
+      "HSQLDB"
+    ],
+    "type": "Web"
   },
 
   {
@@ -19,34 +32,51 @@
     "name": "Tower Defense",
     "icon": "🎮",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
-    "source": "https://github.com/FJss23/VG-Project-Tower"
+    "source": "https://github.com/FJss23/VG-Project-Tower",
+    "technologies": ["Javascript"],
+    "type": "Game"
   },
   {
     "id": 4,
     "name": "Humidity Detector",
     "icon": "🐳",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
-    "source": "https://github.com/FJss23/Internet-Of-Things7.1"
+    "source": "https://github.com/FJss23/Internet-Of-Things7.1",
+    "technologies": ["Javascript", "OpenLayers", "Ajax", "JQuery"],
+    "type": "IoT"
   },
   {
     "id": 3,
     "name": "Open/Close Sensor",
     "icon": "🚪",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
-    "source": "https://github.com/FJss23/Smart-Object"
+    "source": "https://github.com/FJss23/Smart-Object",
+    "technologies": ["Javascript", "Ajax", "JQuery"],
+    "type": "IoT"
   },
   {
     "id": 2,
     "name": "Distance Detector",
     "icon": "📈",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
-    "source": "https://github.com/FJss23/Internet-Of-Things7.2"
+    "source": "https://github.com/FJss23/Internet-Of-Things7.2",
+    "technologies": ["Javascript", "OpenLayers", "Ajax", "JQuery"],
+    "type": "IoT"
   },
   {
     "id": 1,
     "name": "Incident Manager",
     "icon": "🔥",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
-    "source": "https://github.com/FJss23/Inci-e3a"
+    "source": "https://github.com/FJss23/Inci-e3a",
+    "technologies": [
+      "Javascript",
+      "Java",
+      "SpringBoot",
+      "Kafka",
+      "Bootstrap",
+      "MongoDB"
+    ],
+    "type": "Web"
   }
 ]

@@ -20,7 +20,6 @@ export default function Pagination({
           <li className={pagStyle.list} key={number}>
             <a
               className={pagStyle.link}
-              activeClassName={pagStyle.active}
               onClick={() => paginate(number)}
               href="#0"
             >

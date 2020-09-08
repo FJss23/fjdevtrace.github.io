@@ -14,6 +14,7 @@ export default function Projects() {
   const currentProjects = projects.slice(indexFirstProject, indexLastProject);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
     <>
       <h1 className="sectionTitle">PROJECTS</h1>
@@ -26,6 +27,8 @@ export default function Projects() {
               icon={project.icon}
               description={project.description}
               source={project.source}
+              chips={project.technologies}
+              type={project.type}
             />
           );
         })}

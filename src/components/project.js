@@ -1,5 +1,6 @@
 import React from "react";
 import projectStyle from "./project.module.css";
+import Chip from "./chip";
 
 export default function Project(props) {
   return (
@@ -10,8 +11,6 @@ export default function Project(props) {
             {props.name} {props.icon}
           </span>
         </div>
-      </div>
-      <div className={projectStyle.technical}>
         <div>
           <div>
             <span className={projectStyle.subtitle}>Description:</span>
@@ -30,8 +29,22 @@ export default function Project(props) {
             </span>
           </div>
         </div>
+      </div>
+      <div className={projectStyle.technologies}>
+        <div>
+          <span className={projectStyle.subtitle}>Type:</span>
+          <div>
+            <Chip chip={props.type} />;
+          </div>
+        </div>
         <div>
           <span className={projectStyle.subtitle}>Technologies:</span>
+          <div>
+            {props.chips &&
+              props.chips.map((text) => {
+                return <Chip chip={text} />;
+              })}
+          </div>
         </div>
       </div>
     </div>

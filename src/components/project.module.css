@@ -12,10 +12,6 @@
 
 .container {
   display: flex;
-  flex-direction: column;
-}
-.technical {
-  display: flex;
 }
 
 .title,
@@ -36,4 +32,8 @@
 
 .link {
   color: #1d3557;
+}
+
+.technologies {
+  flex-basis: 90%;
 }
