@@ -14,3 +14,7 @@
   justify-content: center;
   margin: 0;
 }
+
+.active {
+  color: #e63946;
+}

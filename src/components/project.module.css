@@ -1,6 +1,6 @@
 .card {
-  background-color: #f1faee;
-  color: #1d3557;
+  background-color: #9eb3c2;
+  color: #21295c;
   border-radius: 10px;
   height: 100%;
   padding: 1rem;
@@ -21,7 +21,13 @@
 
 .title {
   font-size: 1.3rem;
-  padding-bottom: 0.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.3rem;
+}
+
+div > .subtitle {
+  padding-top: 0.5rem;
 }
 
 .projects {
@@ -31,9 +37,20 @@
 }
 
 .link {
-  color: #1d3557;
+  color: #065a82;
 }
 
 .technologies {
-  flex-basis: 90%;
+  padding-left: 3rem;
+  flex-basis: 110%;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.type {
+  padding-bottom: 0.4rem;
 }

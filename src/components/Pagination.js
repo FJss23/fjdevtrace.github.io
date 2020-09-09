@@ -5,6 +5,7 @@ export default function Pagination({
   projectsPerPage,
   totalProjects,
   paginate,
+  currentPage,
 }) {
   const pageNumbers = [];
   const max = Math.ceil(totalProjects / projectsPerPage);
@@ -16,10 +17,12 @@ export default function Pagination({
   return (
     <nav>
       <ul className={pagStyle.container}>
-        {pageNumbers.map((number) => (
+        {pageNumbers.map((number, index) => (
           <li className={pagStyle.list} key={number}>
             <a
-              className={pagStyle.link}
+              className={`${pagStyle.link} ${
+                currentPage - 1 == index ? pagStyle.active : ""
+              }`}
               onClick={() => paginate(number)}
               href="#0"
             >

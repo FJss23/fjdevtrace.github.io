@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import Project from "./project";
-import Pagination from "./pagination";
+import Project from "./Project";
+import Pagination from "./Pagination";
 import data from "../projects/projects.json";
 import projectStyle from "./project.module.css";
 
 export default function Projects() {
   const [projects] = useState(data);
   const [currentPage, setCurrentPage] = useState(1);
-  const [projectsPerPage] = useState(4);
+  const [projectsPerPage] = useState(3);
 
   const indexLastProject = currentPage * projectsPerPage;
   const indexFirstProject = indexLastProject - projectsPerPage;
@@ -36,6 +36,7 @@ export default function Projects() {
           projectsPerPage={projectsPerPage}
           totalProjects={projects.length}
           paginate={paginate}
+          currentPage={currentPage}
         />
       </div>
     </>

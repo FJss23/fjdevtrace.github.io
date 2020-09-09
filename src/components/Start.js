@@ -1,8 +1,8 @@
-import React from 'react';
-import Navigation from '../components/navigation';
-import startStyle from './start.module.css';
+import React from "react";
+import Navigation from "../components/Navigation";
+import startStyle from "./start.module.css";
 
-export default function Home() {
+export default function Start() {
   return (
     <div className={startStyle.frontpage}>
       <div>

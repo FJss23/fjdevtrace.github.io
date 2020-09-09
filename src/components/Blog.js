@@ -1,5 +1,5 @@
-import React from 'react';
-import blogStyle from './blog.module.css';
+import React from "react";
+import blogStyle from "./blog.module.css";
 
 export default function Blog() {
   return (

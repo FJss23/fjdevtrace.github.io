@@ -1,16 +1,11 @@
-.row {
-  display: flex;
-  /* padding-bottom: 1rem; */
-  /* margin-bottom: 1.5rem; */
-}
-
-.column {
-  align-items: center;
-}
-
 .cat {
   width: 100%;
   height: auto;
   align-self: center;
   padding-right: 2rem;
+}
+
+.content {
+  padding-right: 2rem;
+  padding-left: 2rem;
 }

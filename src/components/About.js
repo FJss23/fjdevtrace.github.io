@@ -6,15 +6,8 @@ export default function About() {
   return (
     <>
       <h1 className="sectionTitle">ABOUT</h1>
-      <div className={aboutStyle.row}>
-        <div className={`${aboutStyle.column} ${aboutStyle.cat}`}>
-          <object
-            type="image/svg+xml"
-            data="avatar.svg"
-            className="logo"
-          ></object>
-        </div>
-        <div className={aboutStyle.column}>
+      <div className={aboutStyle.content}>
+        <div>
           <span>
             My name is Francisco and I am a Software Engineer based in Spain.{" "}
           </span>

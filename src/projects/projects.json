@@ -42,7 +42,7 @@
     "icon": "🐳",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
     "source": "https://github.com/FJss23/Internet-Of-Things7.1",
-    "technologies": ["Javascript", "OpenLayers", "Ajax", "JQuery"],
+    "technologies": ["Javascript", "OpenLayers", "Ajax", "JQuery", "Arduino"],
     "type": "IoT"
   },
   {
@@ -51,7 +51,7 @@
     "icon": "🚪",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
     "source": "https://github.com/FJss23/Smart-Object",
-    "technologies": ["Javascript", "Ajax", "JQuery"],
+    "technologies": ["Javascript", "Ajax", "JQuery", "Arduino"],
     "type": "IoT"
   },
   {
@@ -60,7 +60,7 @@
     "icon": "📈",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa, nihil corporis ratione libero voluptate fugiat minus, dolore at blanditiis",
     "source": "https://github.com/FJss23/Internet-Of-Things7.2",
-    "technologies": ["Javascript", "OpenLayers", "Ajax", "JQuery"],
+    "technologies": ["Javascript", "OpenLayers", "Ajax", "JQuery", "Arduino"],
     "type": "IoT"
   },
   {

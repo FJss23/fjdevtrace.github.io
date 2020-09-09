@@ -1,0 +1,17 @@
+.main {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 0.7rem;
+}
+
+.motiv {
+  font-style: italic;
+  padding-bottom: 1rem;
+}
