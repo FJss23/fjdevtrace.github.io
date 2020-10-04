@@ -1,0 +1,11 @@
+.date {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.end {
+  background: #011627;
+}

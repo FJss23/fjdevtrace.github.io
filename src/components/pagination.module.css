@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0.7rem;
+  padding-top: 0.8rem;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
+

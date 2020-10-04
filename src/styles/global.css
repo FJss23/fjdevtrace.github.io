@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: myFont, "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1.25rem;
+  background: #213152;
+  color: #f1faee;
+}
+
+a {
+  color: #f1faee;
+}
+
+.sectionTitle {
+  margin-bottom: 0rem;
+  padding-bottom: 1.6rem;
+  color: #e63946;
+  background-image: linear-gradient(#457b9d, #457b9d);
+  background-position: center center;
+  background-size: 100% 0.2rem;
+  background-repeat: no-repeat;
+}
+
+a:hover {
+  color: #e63946;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  src: url(../../static/poppins/Poppins-Regular.otf);
+  font-family: myFont;
+}
+
+@font-face {
+  src: url(../../static/poppins/Poppins-Bold.otf);
+  font-family: myFont;
+  font-weight: bold;
+}
+
+.active {
+  color: #e63946;
+}

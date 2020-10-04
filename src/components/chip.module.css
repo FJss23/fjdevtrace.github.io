@@ -1,0 +1,24 @@
+.chip {
+  display: inline-block;
+  margin: 0.1rem;
+  position: relative;
+}
+
+.chip .chipValue {
+  display: inline-block;
+  padding: 0.2rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  color: #f1faee;
+  font-weight: bold;
+  font-size: 0.6rem;
+  border-radius: 15px;
+}
+
+.technology {
+  background: #457b9d;
+}
+
+.type {
+  background: #0081a7;
+}
