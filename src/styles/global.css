@@ -58,3 +58,7 @@ body {
 .active {
   color: #e63946;
 }
+
+.gatsby-resp-image-wrapper {
+  min-width: 100%;
+}

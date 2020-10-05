@@ -7,9 +7,10 @@
 }
 
 .img {
+  align-self: center;
   padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  width: 80%;
+  padding-bottom: 1.3rem;
+  width: 100%;
 }
 
 .container {
@@ -19,7 +20,6 @@
 
 .title {
   font-size: 2.5rem;
-  align-self: center;
   margin: 0rem;
   padding-bottom: 1rem;
   padding-top: 1rem;

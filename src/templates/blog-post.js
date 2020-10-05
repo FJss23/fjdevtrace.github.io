@@ -39,10 +39,10 @@ export default function BlogPostTemplate({ data, pageContext, location }) {
             id={blogPostStyle.bio}
             className={blogPostStyle.item}
           />
+          <div className={`${blogPostStyle.img}`}>
+            <Img fluid={featuredImgFluid} />
+          </div>
         </header>
-        <div className={`${blogPostStyle.img}`}>
-          <Img fluid={featuredImgFluid} />
-        </div>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"

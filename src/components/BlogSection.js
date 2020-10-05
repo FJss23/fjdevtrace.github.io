@@ -51,7 +51,6 @@ export default function BlogSection() {
               key={index}
               readTime={node.fields.readingTime.text}
               space={true}
-              last={true}
             />
           )
         })}

@@ -12,7 +12,6 @@ export default function PostPreview({
   imgFluid,
   readTime,
   space,
-  last,
 }) {
   const bigTitle = title || slug
 
@@ -27,7 +26,6 @@ export default function PostPreview({
     >
       <Img fluid={imgFluid} className={postPrevStyle.img} />
       <header className={postPrevStyle.header}>
-        {last && <div id={postPrevStyle.last}>Last post</div>}
         <h2 className={postPrevStyle.title}>
           <Link to={`/blog${slug}#blog-title`} itemProp="url">
             <span itemProp="headline">{bigTitle}</span>
