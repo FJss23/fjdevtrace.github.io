@@ -1,6 +1,6 @@
-import React from "react"
-import projectStyle from "./project.module.css"
-import Chip from "./Chip"
+import React from "react";
+import projectStyle from "./project.module.css";
+import Chip from "./Chip";
 
 export default function Project(props) {
   return (
@@ -8,13 +8,15 @@ export default function Project(props) {
       <div className={projectStyle.descriptions}>
         <div>
           <h2 className={projectStyle.title}>
+            <span role="img" aria-label={props.iconDescription}>
+              {props.icon}
+            </span>{" "}
             {props.name}{" "}
             <span role="img" aria-label={props.iconDescription}>
               {props.icon}
             </span>
           </h2>
           <div>
-            <span className={projectStyle.subtitle}>Description:</span>
             <span>{props.description}</span>
           </div>
         </div>
@@ -27,32 +29,22 @@ export default function Project(props) {
                   href={`${element}`}
                   target="_blank"
                   rel="noreferrer"
-                  className={projectStyle.link}
                   key={index}
                 >
-                  Repository
+                  <strong>Repository</strong>
                 </a>
               </div>
-            )
+            );
           })}
         </div>
       </div>
-      <div className={projectStyle.technologies}>
-        <div className={projectStyle.type}>
-          <span className={projectStyle.subtitle}>
-            Type: <Chip chip={props.type} type={true} />
-          </span>
-        </div>
-        <div>
-          <div>
-            <span className={projectStyle.subtitle}>Technologies:</span>
-            {props.chips &&
-              props.chips.map((text, index) => {
-                return <Chip chip={text} type={false} key={index} />
-              })}
-          </div>
-        </div>
+      <div className={projectStyle.type}>
+        <Chip chip={props.type} type={true} />
+        {props.chips &&
+          props.chips.map((text, index) => {
+            return <Chip chip={text} type={false} key={index} />;
+          })}
       </div>
     </div>
-  )
+  );
 }
