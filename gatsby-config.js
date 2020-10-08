@@ -6,6 +6,7 @@ module.exports = {
       name: `Francisco FJss23`,
     },
     description: `My personal website containing a porftolio and blog, where i can share my projects and experiences about technology`,
+    siteUrl: "https://frandev.me",
     url: "https://frandev.me",
     image: "/avatar.png",
   },
@@ -64,4 +65,4 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
   ],
-}
+};
