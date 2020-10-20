@@ -27,7 +27,7 @@ export default function Start() {
             <img src={itch} alt="Itch logo" className={startStyle.itch} />
           </a>
           <a
-            href="https://github.com/FJss23"
+            href="https://www.linkedin.com/in/francisco-rw-8975091b9/"
             className={startStyle.logo}
             target="_blank"
             rel="noreferrer"
@@ -35,7 +35,7 @@ export default function Start() {
             <img src={linkedin} alt="LinkedIn logo" />
           </a>
           <a
-            href="https://www.linkedin.com/in/francisco-rw-8975091b9/"
+            href="https://github.com/FJss23"
             className={startStyle.logo}
             target="_blank"
             rel="noreferrer"
