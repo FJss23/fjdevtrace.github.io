@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import aboutStyle from "./about.module.css"
+import React from "react";
+import { Link } from "gatsby";
+import aboutStyle from "./about.module.css";
 
 export default function About() {
   return (
@@ -16,7 +16,7 @@ export default function About() {
           <p>
             I have a strong passion for a variety of topics like web
             development, IoT, embedded systems and game development. I like
-            spent some time learning new technologies, practising sport and
+            spent some time learning new technologies, practise sport and
             reading fantasy books.
           </p>
           <p>
@@ -143,5 +143,5 @@ export default function About() {
         </div>
       </div>
     </>
-  )
+  );
 }

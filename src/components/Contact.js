@@ -1,27 +1,27 @@
-import React, { useState } from "react"
-import contactStyle from "./contact.module.css"
+import React, { useState } from "react";
+import contactStyle from "./contact.module.css";
 
 export default function Contact() {
-  const [response, setResponse] = useState({})
+  const [response, setResponse] = useState({});
 
-  const submitForm = ev => {
-    ev.preventDefault()
-    const form = ev.target
-    const data = new FormData(form)
-    const xhr = new XMLHttpRequest()
-    xhr.open(form.method, form.action)
-    xhr.setRequestHeader("Accept", "application/json")
+  const submitForm = (ev) => {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
     xhr.onreadystatechange = () => {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
-        form.reset()
-        setResponse({ status: "SUCCESS" })
+        form.reset();
+        setResponse({ status: "SUCCESS" });
       } else {
-        setResponse({ status: "ERROR" })
+        setResponse({ status: "ERROR" });
       }
-    }
-    xhr.send(data)
-  }
+    };
+    xhr.send(data);
+  };
 
   return (
     <>
@@ -60,21 +60,21 @@ export default function Contact() {
           onSubmit={submitForm}
         >
           <input
-            placeholder="Name *"
+            placeholder="Name"
             className={contactStyle.item}
             name="name"
             maxLength="70"
             required
           />
           <input
-            placeholder="Email *"
+            placeholder="Email"
             className={contactStyle.item}
             name="email"
             maxLength="70"
             required
           />
           <textarea
-            placeholder="Message *"
+            placeholder="Message"
             className={`${contactStyle.item} ${contactStyle.area}`}
             name="message"
             maxLength="250"
@@ -95,5 +95,5 @@ export default function Contact() {
         </form>
       </div>
     </>
-  )
+  );
 }

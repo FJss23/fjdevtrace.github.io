@@ -2,10 +2,7 @@
   color: #f1faee;
   height: 100%;
   padding-bottom: 0.7rem;
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
   margin-bottom: 1rem;
-  width: 90%;
   align-content: center;
   justify-content: center;
 }
@@ -34,7 +31,6 @@ div > .subtitle {
 .projects {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .descriptions {

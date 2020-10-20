@@ -62,3 +62,9 @@ body {
 .gatsby-resp-image-wrapper {
   min-width: 100%;
 }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 1.1rem;
+  }
+}

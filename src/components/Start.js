@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import startStyle from "./start.module.css"
-import itch from "../../static/itch.png"
-import linkedin from "../../static/linkedin.png"
-import github from "../../static/github.png"
+import React from "react";
+import { Link } from "gatsby";
+import startStyle from "./start.module.css";
+import itch from "../../static/itch.png";
+import linkedin from "../../static/linkedin.png";
+import github from "../../static/github.png";
 
 export default function Start() {
   return (
@@ -35,7 +35,7 @@ export default function Start() {
             <img src={linkedin} alt="LinkedIn logo" />
           </a>
           <a
-            href="https://github.com/FJss23"
+            href="https://www.linkedin.com/in/francisco-rw-8975091b9/"
             className={startStyle.logo}
             target="_blank"
             rel="noreferrer"
@@ -45,5 +45,5 @@ export default function Start() {
         </div>
       </div>
     </section>
-  )
+  );
 }
