@@ -1,0 +1,43 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+    pageTitle?: string,
+    description?: string,
+    image?: string
+}
+
+// check https://docs.astro.build/en/core-concepts/layouts/#markdown-layout-props
+// check https://fasterthanli.me/
+
+const { pageTitle, description, image } = Astro.props;
+---
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/x-icon" href="/public/favicon.ico" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <!-- requried -->
+        <meta property="og:title" content={pageTitle || "Home"}>
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={image || "/avatar.webp"}>
+        <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+        <meta name="twitter:card" content="summary_large_image">
+        <!-- recommended -->
+        <meta property="og:description" content={description || ""}>
+        <meta name="twitter:image:alt" content="Alt text for image">
+        <title>{pageTitle || "Home"}</title>
+    </head>
+    <body>
+        <Header />
+        <h1>{pageTitle}</h1>
+        <slot />
+        <Footer />
+        <script>
+            import "../scripts/menu.js";
+        </script>
+    </body>
+</html>

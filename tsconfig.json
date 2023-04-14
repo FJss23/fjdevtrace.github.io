@@ -1,0 +1,11 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "compileOptions": {
+      "plugins": [
+          {
+              "name": "@astrojs/ts-plugin"
+          }
+      ],
+      "importsNotUsedAsValues": "error"
+  }
+}
