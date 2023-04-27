@@ -9,12 +9,9 @@ interface Props {
     image?: string
 }
 
-// check https://docs.astro.build/en/core-concepts/layouts/#markdown-layout-props
-// check https://fasterthanli.me/
-
 const { pageTitle, description, image } = Astro.props;
 ---
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="utf-8" />
         <link rel="icon" type="image/x-icon" href="/public/favicon.ico" />
@@ -29,15 +26,17 @@ const { pageTitle, description, image } = Astro.props;
         <!-- recommended -->
         <meta property="og:description" content={description || ""}>
         <meta name="twitter:image:alt" content="Alt text for image">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
         <title>{pageTitle || "Home"}</title>
     </head>
     <body>
         <Header />
-        <h1>{pageTitle}</h1>
-        <slot />
+        <main class="container">
+            <slot />
+        </main>
         <Footer />
-        <script>
-            import "../scripts/menu.js";
-        </script>
     </body>
 </html>

@@ -1,33 +1,23 @@
 ---
-import Project from "../components/Project.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 <BaseLayout>
-    <img src="/avatar.webp" alt="A black cat" height="110px" width="110px"/>
-    <p>My name is Fran, I am a Software Engineer based in Spain.
-        I have a strong passion for a variety of topics like web
-         development, IoT, and embedded systems. I like
-            spending some time learning new technologies, practicing sport, and
-        reading fantasy books.
+    <h3>👋 I'm Fran - Software Engineer and Technology Enthusiast </h3>
+    <p>
+        My name is Francisco, I am a Software Engineer based in Spain. I have a strong passion for a variety of topics like web development, IoT, and embedded systems. I like spending some time learning new technologies, practicing sport, and reading fantasy books.
     </p>
-    <h2>Projects</h2>
-    <Project name="jobsearch" description={`Lorem ipsum, or lipsum as it is sometimes 
-known, is dummy text used in laying out print, graphic or web 
-designs. The passage is attributed to an unknown typesetter in 
-the 15th century who is thought to have scrambled parts of Cicero's 
-De Finibus Bonorum et Malorum for use in a type specimen book. 
-It usually begins with`} />
-    <Project name="jonvallejofoto" description={`Lorem ipsum, or lipsum as it is sometimes 
-known, is dummy text used in laying out print, graphic or web 
-designs. The passage is attributed to an unknown typesetter in 
-the 15th century who is thought to have scrambled parts of Cicero's 
-De Finibus Bonorum et Malorum for use in a type specimen book. 
-It usually begins with`} />
-    <Project name="flashcards" description={`Lorem ipsum, or lipsum as it is sometimes 
-known, is dummy text used in laying out print, graphic or web 
-designs. The passage is attributed to an unknown typesetter in 
-the 15th century who is thought to have scrambled parts of Cicero's 
-De Finibus Bonorum et Malorum for use in a type specimen book. 
-It usually begins with`} />
-    <h2>Recent articles</h2>
+    <div>
+        You can find me on <a href="https://twitter.com/frandevme">twitter</a> and <a href="https://github.com/FJss23">github</a>
+    </div>
+    <br>
+    <div>
+        Some <strong>projects</strong> that I have worked on:
+        <ul>
+            <br>
+            <li><a href="https://github.com/FJss23/jobsearch">jobsearch</a>: job board for remote positions around EU & UK.</li>
+            <li><a href="https://jonvallejofoto.com/">jonvallejofo</a>: portfolio website for a photographer.</li>
+            <li><a href="https://github.com/FJss23/Internet-Of-Things7.2">arduino mini projects</a>: three mini projects created with Arduino as a web server.</li>
+            <li><a href="https://github.com/FJss23/Inci-e3a">incident manager</a>: a system that receive incidents from differents types of agents, those incidents can be measured and visualized to be solved.</li>
+        </ul>
+    </div>
 </BaseLayout>
